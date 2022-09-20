@@ -13,8 +13,8 @@ namespace _111_1PC2
         {
             int i_In = 66377;
             double d_Ou = -1;
-            double d_Sum = (double)i_In;
-            d_Ou = d_Sum * (9.0 / 5.0) + 32.0;
+            double d_i_In = (double)i_In;
+            d_Ou = d_i_In * (9.0 / 5.0) + 32.0;
             Response.Write(d_Ou);
         }
     }
